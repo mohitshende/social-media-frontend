@@ -1,0 +1,20 @@
+.feed {
+  flex: 5.5;
+  display: flex;
+  justify-content: center;
+}
+.feedWrapper {
+  width: 50%;
+  padding: 20px;
+}
+.no-posts {
+  font-size: 25px;
+  margin-top: 30px;
+  text-align: center;
+}
+
+@media only screen and (max-width: 380px) {
+  .feedWrapper {
+    width: 100%;
+  }
+}

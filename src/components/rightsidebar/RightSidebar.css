@@ -1,0 +1,123 @@
+.rightsidebar {
+  flex: 2;
+  height: calc(100vh - 50px);
+  position: sticky;
+  top: 50px;
+  overflow-y: scroll;
+}
+
+.rightsidebarWrapper {
+  padding: 20px 0 0 20px;
+}
+
+.birthdayContainer {
+  display: flex;
+  align-items: center;
+}
+
+.birthdayImg {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+}
+
+.birthdayText {
+  font-weight: 300;
+  font-size: 15px;
+}
+
+.rightsidebarAd {
+  width: 100%;
+  border-radius: 10px;
+  margin: 30px 0;
+}
+
+.rightsidebarTitle {
+  margin-bottom: 20px;
+}
+
+.rightsidebarFriendList {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.profilerightsidebarTitle {
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.rightsidebarInfo {
+  margin-bottom: 30px;
+}
+
+.rightsidebarInfoItem {
+  margin-bottom: 10px;
+}
+
+.rightsidebarInfoKey {
+  font-weight: 500;
+  margin-right: 15px;
+  color: #555;
+}
+
+.rightsidebarInfoValue {
+  font-weight: 300;
+}
+
+.rightsidebarFollowings {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1px;
+}
+
+.rightsidebarFollowing {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+  cursor: pointer;
+  transition: all 0.5s ease;
+}
+
+.rightsidebarFollowing:hover {
+  transform: scale(1.1);
+  z-index: 999;
+  -webkit-box-shadow: 0px 0px 16px -8px rgba(0, 0, 0, 0.68);
+  box-shadow: 0px 0px 16px -8px rgba(0, 0, 0, 0.68);
+}
+
+.rightsidebarFollowingImg {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+.rightsidebarFollowingName {
+  color: black;
+  text-align: center;
+  font-weight: 500;
+}
+.rightsidebarFollowButton {
+  margin-top: 30px;
+  margin-bottom: 10px;
+  border: none;
+  background-color: #1872f2;
+  color: white;
+  border-radius: 5px;
+  padding: 5px 10px;
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+}
+.rightsidebarFollowButton:focus {
+  outline: none;
+}
+
+@media only screen and (max-width: 380px) {
+  .rightsidebar {
+    position: static;
+  }
+}
